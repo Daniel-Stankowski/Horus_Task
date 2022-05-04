@@ -1,0 +1,9 @@
+Zadanie zakłada, iż mamy struktury, które składają się z bloków. Bloki mogą być pojedyńcze 
+lub mogą być pewnego rodzaju mniejszą strukturą składającą się z bloków(w tym tych właśnie miejszych stuktur
+nazywanych dalej kompozycją bloków).
+Jako przykład struktury mamy podaną ścianę, która posiada listę tych bloków. Naszym zadaniem jest
+zaimplementowanie trzech metod zwracających liczbę pojedyńczych bloków w ścianie, listę pojedyńczych bloków 
+o podanym materiale i przykład pojedyńczego bloku o podanym kolorze o ile istnieje.
+Założyłem, że nie mogę dokonywać zmian w interfejsach, dlatego do wykonania tego zadania potrzebne mi były
+pomocnicze metody, które w przypadku wystąpienia kompozycji bloków będą wywoływane rekurencyjnie. Jeżeli 
+mógłbym dokonywać zmian w interfejsie owe pomocnicze metody nie byłyby potrzebne.
